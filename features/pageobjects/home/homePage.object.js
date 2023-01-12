@@ -4,7 +4,7 @@ const {getById, getByCss} = locators
 
 const pageObjects = {
 
-  'GamesFeedHeritage': getByXpath("//div[@class= 'top'] //div[@class= 'logo animate']"),
+  'HeritageLogo': getByXpath("//div[@class= 'top'] //div[@class= 'logo animate']"),
 
 }
 

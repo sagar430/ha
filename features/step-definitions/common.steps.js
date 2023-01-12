@@ -24,3 +24,9 @@ Then('I should see {string} displayed', async function(objectKey) {
   const page = await getPageObject(objectKey)
   expect(await page.isElementPresent(objectKey)).to.be.true;
 })
+
+Then('I see {string} displayed', async function(objectKey) {
+  const page = await getPageObject(objectKey)
+  expect(await page.isElementPresent(objectKey)).to.be.true;
+})
+

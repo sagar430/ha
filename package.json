@@ -10,7 +10,7 @@
     "lint:js": "npm run lint:eslint -- ./src ",
     "lint:js:fix": "npm run lint:eslint:fix -- ./src ",
     "prepack": "npm run build",
-    "wdio": "wdio run wdio.conf.js"
+    "wdio": "wdio run conf/test.conf.js"
   },
   "main": "index.js",
   "files": [
