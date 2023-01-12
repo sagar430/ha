@@ -2,6 +2,7 @@
   "name": "common-js-test-utils",
   "version": "1.0.3",
   "description": "End-to-End testing framework",
+  
   "scripts": {
     "build": "npm run lint",
     "lint": "npm run lint:js",
@@ -20,7 +21,6 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "chromedriver": "^108.0.0",
     "eslint": "^6.6.0"
   },
   "dependencies": {
@@ -46,6 +46,7 @@
     "chai": "^4.2.0",
     "chai-arrays": "^2.0.0",
     "chai-string": "^1.5.0",
+    "chromedriver": "^108.0.0",
     "concurrently": "^5.0.0",
     "convert-array-to-csv": "^2.0.0",
     "cucumber": "^6.0.5",
@@ -56,13 +57,13 @@
     "https-proxy-agent": "^5.0.0",
     "node-emoji": "^1.10.0",
     "perfecto-reporting": "^2.5.3",
+    "@wdio/browserstack-service": "^7",
     "rimraf": "^3.0.2",
     "selenium-webdriver": "^4.0.0-alpha.5",
     "splunk-logging": "^0.10.1",
     "uniqid": "^5.2.0",
     "wdio-chromedriver-service": "^7.2.2",
     "wdio-cucumber-parallel-execution": "^3.6.14",
-    "wdio-selenium-standalone-service": "^0.0.12",
     "webdriver-manager": "^13.0.0",
     "webdriverio": "^6.12.1",
     "yargs": "^14.2.0"
