@@ -43,8 +43,6 @@ Here is a list of options that can be set:
 - `features` - glob with the feature file paths
 - `stepDefinitions` - glob with the step definition file paths
 - `reportsPath` -  destination path for the report files
-- `SaucelabUser` -  Saucelab user name
-- `SaucelabKey` -  Saucelab user key
 - `projectName` -  
 - `applicationName` -  
 - `applicationVersion` -  
@@ -66,7 +64,6 @@ Add all your BDD files, `features`, `step definitions`, `page objects`... to you
 │     │─pageContents
 │     │─...
 │     │─stepDefinitions
-│     │─e2eTest.config.js
 ```
 
 ### NPM scripts
@@ -79,10 +76,6 @@ Add the following scripts to the consuming applications package.json file:
 
 Open a new terminal session and Execute `npm run wdio`. 
 
-## Jenkins CI
 
-1. Create a Pull Request to trigger [Jenkins TEVS-Common-JS-Test-Utils job](https://jenkins2.0.testeng.mlbinfra.net/job/TE_Video_Streaming/job/TEVS-Common-JS-Test-Utils/)
-
-2. Jenkins CI job is located in [./jenkins/Jenkinsfile](./jenkins/Jenkinsfile) directory
 
 
