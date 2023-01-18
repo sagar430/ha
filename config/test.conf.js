@@ -13,8 +13,8 @@ const parallelConfig = {
       browserName: 'chrome',
       browserVersion: 'latest',
       'bstack:options': {
-        os: 'Windows',
-        osVersion: '10',
+        os: 'OS X',
+        osVersion: 'Monterey',
       },
     },
     {
