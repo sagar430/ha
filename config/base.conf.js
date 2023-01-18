@@ -1,6 +1,6 @@
 exports.config = {
-    user: process.env.BROWSERSTACK_USERNAME || 'sagar_xlq52L',
-    key: process.env.BROWSERSTACK_ACCESS_KEY || 'zgyzxdPgwsTpxpJrSxzp',
+    user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
   
     updateJob: false,
     specs: [
@@ -17,7 +17,7 @@ exports.config = {
     connectionRetryCount: 3,
     hostname: 'hub.browserstack.com',
     services: [['browserstack']],
-    baseUrl: 'https://www.mlb.com',
+    baseUrl: 'https://www.ha.com',
   
   
     before: function () {
