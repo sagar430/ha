@@ -1,14 +1,7 @@
 # Don't check auto-generated stuff into git
-dist
 node_modules
-build
 DS_Store
 reports*
 sessions
 generated
 #logs
-e2e-test/logs/
-e2e-test/transpiled
-e2e-test/generatedFeatures
-e2e-test/generated
-static-scan
